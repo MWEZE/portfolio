@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Mweze Elie Belge</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Responsive.css">
+    <link rel="icon" href="images/Profile.jpeg">
+    <style>
+        body {
+            background: linear-gradient(135deg, #050816 0%, #0b1228 100%);
+        }
+
+        .detail-hero {
+            padding-top: 160px;
+            min-height: 70vh;
+        }
+
+        .detail-hero h4 {
+            color: #7bdcff;
+        }
+
+        .detail-hero .hero-left p {
+            max-width: 760px;
+        }
+
+        .detail-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+
+        .detail-card {
+            background: rgba(255,255,255,.05);
+            border: 1px solid rgba(255,255,255,.1);
+            padding: 25px;
+            border-radius: 20px;
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+        }
+
+        .detail-card h3 {
+            color: #00e5ff;
+            margin-bottom: 12px;
+        }
+
+        .detail-card p,
+        .detail-card li {
+            color: #d8d8d8;
+            line-height: 1.8;
+        }
+
+        .tag-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .tag-list span {
+            background: rgba(0,229,255,.12);
+            color: #7bdcff;
+            padding: 8px 12px;
+            border-radius: 999px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 700px) {
+            .detail-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">BELGE</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="page2.html" target="_self">About</a>
+            <a href="index.html#skills">Skills</a>
+            <a href="index.html#services">Services</a>
+            <a href="index.html#portfolio">Portfolio</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero detail-hero">
+        <div class="hero-left" data-aos="fade-right">
+            <h4>Hello, I'm</h4>
+            <h1>MWEZE ELIE BELGE</h1>
+            <h2>Software Engineer • Web Developer • Creative Problem Solver</h2>
+            <p>I am a passionate Software Engineering student who enjoys building innovative digital solutions that solve real-world problems. My mission is to combine technology, creativity, and design to create modern websites, powerful applications, and exceptional user experiences that make a positive impact.</p>
+            <div class="buttons">
+                <a href="index.html#portfolio" class="btn">View Projects</a>
+                <a href="index.html#contact" class="btn btn2">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-right" data-aos="fade-left">
+            <div class="image-box">
+                <img src="images/Profile.jpeg" alt="Mweze Elie Belge">
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-title">Who I Am</div>
+        <div class="detail-grid">
+            <div class="detail-card">
+                <h3>My Story</h3>
+                <p>My name is Mweze Elie Belge, a passionate Software Engineering student from Rwanda with a strong interest in software development, technology, innovation, and digital creativity.</p>
+                <p>I enjoy transforming ideas into functional software solutions through programming, design, and continuous learning. My journey in technology has allowed me to develop websites, desktop applications, mobile applications, and database systems while constantly improving my problem-solving skills.</p>
+            </div>
+            <div class="detail-card">
+                <h3>Beyond Coding</h3>
+                <p>Beyond programming, I am also passionate about photography and graphic design, which help me combine technical knowledge with creativity. I believe that great software should not only work efficiently but also provide an attractive and intuitive user experience.</p>
+                <div class="tag-list">
+                    <span>Photography</span>
+                    <span>Graphic Design</span>
+                    <span>UI/UX</span>
+                    <span>Innovation</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-title">Vision & Mission</div>
+        <div class="detail-grid">
+            <div class="detail-card">
+                <h3>My Vision</h3>
+                <p>To become an internationally recognized Software Engineer who develops innovative technologies that improve businesses, education, and everyday life while inspiring young developers across Africa to embrace technology and innovation.</p>
+            </div>
+            <div class="detail-card">
+                <h3>My Mission</h3>
+                <p>To continuously learn emerging technologies, build high-quality software solutions, collaborate with professionals worldwide, and contribute to digital transformation through creativity, discipline, and excellence.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-title">Education & Skills</div>
+        <div class="detail-grid">
+            <div class="detail-card">
+                <h3>Education</h3>
+                <p><strong>Bachelor of Software Engineering</strong><br>University of Lay Adventists of Kigali (UNILAK)</p>
+                <p>Currently pursuing advanced studies in Software Engineering with a focus on software development, database systems, web technologies, mobile applications, and information systems.</p>
+            </div>
+            <div class="detail-card">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>HTML5, CSS3, JavaScript, PHP, Java, C#</li>
+                    <li>Bootstrap, Git & GitHub, Firebase, REST APIs</li>
+                    <li>MySQL, SQL Server, Oracle Database</li>
+                    <li>Figma, Photoshop, Illustrator, VS Code, Visual Studio</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-title">Services & Interests</div>
+        <div class="detail-grid">
+            <div class="detail-card">
+                <h3>Services I Offer</h3>
+                <ul>
+                    <li>Website Development</li>
+                    <li>Mobile App Development</li>
+                    <li>Desktop Applications</li>
+                    <li>Database Design</li>
+                    <li>Graphic Design</li>
+                    <li>Photography</li>
+                </ul>
+            </div>
+            <div class="detail-card">
+                <h3>Interests</h3>
+                <div class="tag-list">
+                    <span>Artificial Intelligence</span>
+                    <span>Cybersecurity</span>
+                    <span>Cloud Computing</span>
+                    <span>Mobile Technologies</span>
+                    <span>Open Source</span>
+                    <span>Business Solutions</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-title">Dream & Goals</div>
+        <div class="detail-grid">
+            <div class="detail-card">
+                <h3>My Developer Dream</h3>
+                <p>My dream is to become a world-class Software Engineer capable of designing intelligent systems that solve real-life problems. I aspire to work on projects involving Artificial Intelligence, Cloud Computing, Mobile Technologies, Cybersecurity, and Modern Web Development.</p>
+            </div>
+            <div class="detail-card">
+                <h3>Future Goals</h3>
+                <ul>
+                    <li>Earn a Bachelor’s Degree in Software Engineering</li>
+                    <li>Become a Full Stack Software Engineer</li>
+                    <li>Build software used by thousands of people</li>
+                    <li>Launch my own technology startup</li>
+                    <li>Mentor young developers and contribute to Africa’s digital growth</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-title">Contact</div>
+        <div class="detail-card">
+            <p><strong>Name:</strong> Mweze Elie Belge</p>
+            <p><strong>Phone:</strong> +250 790 916 036</p>
+            <p><strong>Location:</strong> Kigali, Rwanda</p>
+            <p><strong>Email:</strong> mwezelie29@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Mweze Elie Belge. Crafted with passion.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

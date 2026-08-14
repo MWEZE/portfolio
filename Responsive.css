@@ -1,0 +1,74 @@
+@media (max-width: 900px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .hero-left,
+    .hero-right {
+        width: 100%;
+    }
+
+    .hero-left h1 {
+        font-size: 46px;
+    }
+
+    .skills-grid,
+    .services-grid,
+    .portfolio-grid,
+    .contact-grid,
+    .about-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 650px) {
+    header {
+        padding: 16px 5%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav a {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    .hero,
+    .section {
+        padding: 100px 5% 70px;
+    }
+
+    .hero-left h1 {
+        font-size: 34px;
+    }
+
+    .hero-left h2 {
+        font-size: 24px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .btn {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .skills-grid,
+    .services-grid,
+    .portfolio-grid,
+    .contact-grid,
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .image-box {
+        width: 280px;
+        height: 280px;
+    }
+}
